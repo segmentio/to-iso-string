@@ -9,6 +9,8 @@ module.exports = toIsoString;
 /**
  * Turn a `date` into an ISO string.
  *
+ * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toISOString
+ *
  * @param {Date} date
  * @return {String}
  */
