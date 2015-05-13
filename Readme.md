@@ -3,6 +3,13 @@
   
   Cross-browser toISOString support.
 
+## Installation
+
+```sh
+component install segmentio/to-iso-string
+npm install to-iso-string
+```
+
 ## Example
 
 ```js
