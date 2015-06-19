@@ -1,10 +1,17 @@
 {
-  "name": "to-iso-string",
-  "repository": "git://github.com/segmentio/to-iso-string.git",
+  "name": "@segment/to-iso-string",
+  "repository": "segmentio/to-iso-string",
   "version": "0.0.2",
   "license": "MIT",
   "description": "Cross-browser toISOString support.",
-  "keywords": ["iso", "format", "iso8601", "date", "isostring", "toISOString"],
+  "keywords": [
+    "iso",
+    "format",
+    "iso8601",
+    "date",
+    "isostring",
+    "toISOString"
+  ],
   "devDependencies": {
     "mocha": "*"
   }
