@@ -1,3 +1,9 @@
+1.0.0 / 2016-05-12
+==================
+
+  * Modernize test/CI harness
+  * Remove component support
+  * Fix lint errors
 
 0.0.2 - May 12, 2015
 --------------------
