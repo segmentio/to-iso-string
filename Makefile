@@ -13,7 +13,7 @@ _MOCHA := node_modules/.bin/_mocha
 ##
 
 LIBS = $(shell find lib -type f -name "*.js")
-TESTS = $(shell find test -type f -name "*.js")
+TESTS = $(shell find test -type f -name "*.test.js")
 SUPPORT = $(wildcard karma.conf*.js)
 ALL_FILES = $(LIBS) $(TESTS) $(SUPPORT)
 
@@ -30,6 +30,12 @@ KARMA_FLAGS ?=
 BROWSERS ?=
 ifdef BROWSERS
 KARMA_FLAGS += --browsers $(BROWSERS)
+endif
+
+ifdef CI
+KARMA_CONF ?= karma.conf.ci.js
+else
+KARMA_CONF ?= karma.conf.js
 endif
 
 # Mocha flags.
@@ -86,7 +92,7 @@ test-node: install
 
 # Run browser unit tests in a browser.
 test-browser: install
-	@$(KARMA) start $(KARMA_FLAGS)
+	@$(KARMA) start $(KARMA_FLAGS) $(KARMA_CONF)
 
 # Default test target.
 test: lint test-node test-browser
