@@ -1,7 +1,7 @@
 {
   "name": "@segment/to-iso-string",
   "description": "Cross-browser toISOString support.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "iso",
     "format",
