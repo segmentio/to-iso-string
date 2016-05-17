@@ -1,6 +1,6 @@
 # to-iso-string
 
-[![CircleCI](https://img.shields.io/circleci/project/segmentio/to-iso-string/master.svg?maxAge=2592000)](https://circleci.com/gh/segmentio/to-iso-string)
+[![CircleCI](https://circleci.com/gh/segmentio/to-iso-string.svg?style=shield&circle-token=ab66b7ed28e7126456fae4c7dde07d6de9924381)](https://circleci.com/gh/segmentio/to-iso-string)
 [![Codecov](https://img.shields.io/codecov/c/github/segmentio/to-iso-string/master.svg?maxAge=2592000)](https://codecov.io/gh/segmentio/to-iso-string)
 
   
