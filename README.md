@@ -9,13 +9,13 @@ Cross-browser `toISOString` support.
 ## Installation
 
 ```sh
-npm install to-iso-string
+npm install @segment/to-iso-string
 ```
 
 ## Example
 
 ```js
-var toISOString = require('to-iso-string');
+var toISOString = require('@segment/to-iso-string');
 var date = new Date("05 October 2011 14:48 UTC");
 
 toISOString(date);
